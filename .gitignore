@@ -1,0 +1,7 @@
+config/bot_dev.yml
+config/bot_prod.yml
+
+yarn-error.log
+
+node_modules
+dist

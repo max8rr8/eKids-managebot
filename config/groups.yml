@@ -1,0 +1,20 @@
+- name: Computer Science
+  id: computerScience
+  groups:
+  - -1001480131388
+  - -1001421286747
+
+- name: Frontend
+  id: frontend
+  groups:
+  - -1001430476634
+
+- name: English
+  id: english
+  groups:
+  - -399764214
+  
+- name: Physics
+  id: physics
+  groups:
+  - -400125110
