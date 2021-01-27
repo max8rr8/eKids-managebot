@@ -2,22 +2,28 @@ import yaml from 'js-yaml'
 import { readFileSync } from 'fs'
 import { join } from 'path'
 
-interface BotConfig {
+export interface BotConfig {
   token: string
 }
 
-interface GroupConfig {
+export interface GroupConfig {
   name: string
   id: string
+  link: string
+  time: number[]
   groups: number[]
 }
 
-interface TriggerConfig {
+export interface MetaGroupConfig {
+  groups: number[]
+}
+
+export interface TriggerConfig {
   askWords: string[]
   linkWords: string[]
 }
 
-interface LinksConfig {
+export interface LinksConfig {
   [a: string]: string[]
 }
 
@@ -32,5 +38,6 @@ function loadConfig<T>(name: string) {
 
 export let bot: BotConfig = loadConfig(isProduction ? 'bot_prod' : 'bot_dev')
 export let groups: GroupConfig[] = loadConfig('groups')
+export let metaGroup: MetaGroupConfig = loadConfig('metaGroup')
 export let trigger: TriggerConfig = loadConfig('trigger')
 export let links: LinksConfig = loadConfig('links')

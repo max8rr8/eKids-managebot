@@ -1,20 +1,46 @@
-- name: Computer Science
-  id: computerScience
-  groups:
-  - -1001480131388
-  - -1001421286747
+- name: Physics
+  id: physics
+  link: https://t.me/joinchat/F9lstoUS1WbijAah
 
-- name: Frontend
-  id: frontend
+  time:
+    - 11_20
+    - 12_40
+    - 10_00
+
   groups:
-  - -1001430476634
+    - -400125110
 
 - name: English
   id: english
+  link: https://google.com/q=Мне%20Не%20Дали%20Ссылку%20На%20Английский
+
+  time:
+    - 12_40
+    - 10_00
+    - 11_20
+
   groups:
-  - -399764214
-  
-- name: Physics
-  id: physics
+    - -399764214
+
+- name: Computer Science
+  id: computerScience
+  link: https://t.me/joinchat/FQgMJfCB76tO-gnn
+
+  time:
+    - 10_00
+    - 11_20
+    - 12_40
+
   groups:
-  - -400125110
+    - -1001480131388
+    - -1001421286747
+
+- name: Frontend
+  id: frontend
+  link: https://t.me/joinchat/VUNXWus_W_zA9PHV
+
+  time:
+    - 14_00
+
+  groups:
+    - -1001430476634
